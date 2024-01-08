@@ -25,7 +25,7 @@
 
 .banner {
     background-image: url("../images/Banner-Image.png");
-     
+
 }
 
 
@@ -123,7 +123,7 @@
 }
 
 button {
-  
+
     color: #FFF;
     text-align: center;
     background-color: yellowgreen;
@@ -137,32 +137,80 @@ button {
     text-transform: uppercase;
     cursor: pointer;
 }
-button:hover{
+
+button:hover {
     background-color: rgb(196, 235, 119);
 }
 
 
-    /* Hotel related styles  */
-    .hotel-container{
-        margin-top: 120px ;
-        background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
-        border-radius: 10px;
-    }
-    .hotel-container .hotel-info{
-        text-align: center;
-        font-size: 32px;
-        font-weight: 600;
-      
-    }
-    .hotel-container{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+/* Hotel related styles  */
+.hotel-container {
+    margin-top: 120px;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    border-radius: 10px;
+}
 
-.hotel-container .hotel-info h3{
+.hotel-container .hotel-info {
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+
+}
+
+.hotel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hotel-container .hotel-info h3 {
     margin-top: -20px;
 }
- span{
+
+span {
     color: #F00;
- }
+}
+
+
+/* Best Offer styles  */
+.best-offer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    background-color: #FFF;
+    ;
+}
+
+.best-offer {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.best-offer-title {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: -15px;
+}
+
+.offer-img img {
+    padding: 15px;
+    border: 15px solid red;
+    border-radius: 50%;
+}
+
+.best-offer-discription {
+    margin-top: -15px;
+    width: 393px;
+}
+
+.conclution-title {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: -3px;
+}
