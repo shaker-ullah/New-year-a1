@@ -13,7 +13,6 @@
 
 .banner {
     border-radius: 16px;
-    background: linear-gradient(180deg, #14013a 0%, rgba(2, 0, 7, 0) 100%);
     margin-top: 50px;
 }
 
@@ -26,7 +25,7 @@
 
 .banner {
     background-image: url("../images/Banner-Image.png");
-
+     
 }
 
 
@@ -141,3 +140,29 @@ button {
 button:hover{
     background-color: rgb(196, 235, 119);
 }
+
+
+    /* Hotel related styles  */
+    .hotel-container{
+        margin-top: 120px ;
+        background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+        border-radius: 10px;
+    }
+    .hotel-container .hotel-info{
+        text-align: center;
+        font-size: 32px;
+        font-weight: 600;
+      
+    }
+    .hotel-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+.hotel-container .hotel-info h3{
+    margin-top: -20px;
+}
+ span{
+    color: #F00;
+ }
