@@ -286,7 +286,7 @@ span {
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-padding-left: 30px;
+    padding-left: 30px;
 }
 
 .btn-input {
@@ -299,4 +299,44 @@ padding-left: 30px;
     font-size: 20px;
     font-weight: 600;
     border: none;
+}
+
+.footer{
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+max-width: 1920px;
+    background-color: #070211;;
+}
+.footer-container {
+
+    display: flex;
+    justify-content: space-between;
+   margin-top: 50px;
+   
+}
+.container-info {
+    margin: 50px 240px;
+}.socail-links h4{
+    margin-bottom: -30px;
+}
+.socail-links img {
+    background-color: black;
+    border-radius: 50%;
+}
+hr{
+    height:1px;border-width:0;color:gray;background-color:white
+}
+.socail-link-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 30px 0px;
+    gap: 30px;
+}
+.copy-right{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 240px;
 }
