@@ -48,3 +48,34 @@
     font-weight: 900;
 
 }
+
+
+.main-section {
+    width: 50%;
+    max-width: 802px;
+    margin: 120px auto;
+}
+
+.section-heading h2 {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.section-heading h4{
+    color: #F00;
+text-align: center;
+font-size: 24px;
+font-weight: 500;
+margin-top: -10px;
+}
+.section-heading h3{
+color: #070211;
+text-align: center;
+font-size: 48px;
+font-weight: 700;
+margin-top: -18px;
+}
